@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.pyserial"
+       name="pyserial"
+       version="2.7"
+       provider-name="lentinj">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="pyserial" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Python Serial Port Extension</summary>
+    <description>Packed for XBMC from https://pypi.python.org/pypi/pyserial</description>
+    <platform>all</platform>
+    <language></language>
+    <license>Python</license>
+    <forum></forum>
+    <website>https://pypi.python.org/pypi/pyserial</website>
+    <source>https://github.com/lentinj/script.module.pyserial</source>
+    <email>jm AT lentin.co.uk</email>
+  </extension>
+</addon>
